@@ -42,7 +42,7 @@ RocksDB是一個函式庫，可用來構建高效key-value服務器的核心模�
 ![](docs/architecture-embed-db.png)
 
 
-## [Quickstart](quickstart.md)
+## [Quickstart](quickstart_zh-tw.md)
 
 * 快速構建 Springboot Project
 * 設定 Maven 依賴關係
