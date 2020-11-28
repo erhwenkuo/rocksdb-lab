@@ -1,6 +1,6 @@
 # Using RocksDB with Spring Boot and Java
 
-[Chinses version](quickstart-tw.md)
+[Chinses version](quickstart-zh-tw.md)
 
 <img src="docs/rocksdb.png" width="300px"></img>
 
