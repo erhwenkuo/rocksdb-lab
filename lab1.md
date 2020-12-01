@@ -4,6 +4,8 @@
 
 <img src="docs/rocksdb.png" width="300px"></img>
 
+** [Example Source Code](lab1/) **
+
 The `rocksdb` library provides a persistent key value store. Keys and values are `arbitrary byte arrays`. The keys are ordered within the key value store according to a user-specified comparator function.
 
 ## Opening A Database

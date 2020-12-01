@@ -4,6 +4,8 @@
 
 <img src="docs/rocksdb.png" width="300px"></img>
 
+** [範例程式碼](rocksdb-quickstart/) **
+
 [RocksDB](https://rocksdb.org/)是Facebook的嵌入式key-value存儲函式庫，它是Google [LevelDB](https://github.com/google/leveldb)的分支。它也被用作許多數據庫的存儲層，例如[CockroachDB](https://www.cockroachlabs.com/)。你可以將其用作嵌入式存儲資料庫，緩存庫或作為你自定義的數據庫，文件系統或存儲解決方案等的存儲層。
 
 ## Scaffold Springboot Project

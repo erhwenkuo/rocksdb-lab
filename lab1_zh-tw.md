@@ -4,6 +4,8 @@
 
 <img src="docs/rocksdb.png" width="300px"></img>
 
+** [範例程式碼](lab1/) **
+
 Rocksdb函式庫提供一個持久化的鍵值存儲數據庫。鍵和值都可以是任意二進制數組。所有的鍵在RocksDB中是根據一個用戶定義的比較函數（user-specified comparator function）來進行排列。
 
 ## Opening A Database
