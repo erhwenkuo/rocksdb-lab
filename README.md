@@ -56,3 +56,17 @@ Below diagrams explain why move database from client-server-database architectur
 * Build a key/value REST API
 * Invoke & Test
 
+## [Lab1 - Basic operation#1](lab1.md)
+
+* Opening a Database
+* RocksDB Options
+* Closing a Database
+* Reads
+* Writes
+  * Atomic Updates
+* Concurrency
+* Iteration
+  * Iterate all key/value
+  * Iterate keys in the range
+  * Iterate keys in reverse order
+  * Iterate keys in the range (reverse order)
