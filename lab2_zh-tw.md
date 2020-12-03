@@ -10,12 +10,16 @@
 
 `Snapshot`的功能在k/v數據庫持續運作的狀態下對某一個過去的時間點提供了一個唯讀的數據庫視圖。 若是`ReadOptions::snapshot`為非NULL（也就是它繫結了某一個特定時間的snapshot)，那麼資料的讀取就會在特定快照版本的DB狀態下進行。
 
-如果`ReadOptions::snapshot`為NULL，則資料的讀取將會在當前狀態的隱式快照進行操作。
+如果`ReadOptions::snapshot`為NULL，則資料的讀取將會在當前狀態的隱式快照進行操作。Snapshots是通過`DB::GetSnapshot()`方法來創建的。
 
-Snapshots是通過`DB::GetSnapshot()`方法來創建的：
+Snapshot的概念圖解:
+
+![](docs/lab2/sanpshot.png)
+
+> source: [https://technoscooop.wordpress.com/tag/redirect-on-write/](https://technoscooop.wordpress.com/tag/redirect-on-write/)
+
 
 ```java
-
 import org.apache.commons.io.FileUtils;
 import org.rocksdb.*;
 

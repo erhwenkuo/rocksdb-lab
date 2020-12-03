@@ -12,7 +12,13 @@ Snapshots provide consistent read-only views over the entire state of the key-va
 
 If `ReadOptions::snapshot` is NULL, the read will operate on an implicit snapshot of the current state.
 
-Snapshots are created by the `DB::GetSnapshot()` method:
+Snapshots are created by the `DB::GetSnapshot()` method.
+
+The concept of 'Snapshot':
+
+![](docs/lab2/sanpshot.png)
+
+> source: [https://technoscooop.wordpress.com/tag/redirect-on-write/](https://technoscooop.wordpress.com/tag/redirect-on-write/)
 
 ```java
 
