@@ -56,7 +56,7 @@ Below diagrams explain why move database from client-server-database architectur
 * Build a key/value REST API
 * Invoke & Test
 
-## [Lab1 - Basic operation#1](lab1.md)
+## [Lab1 - Basic operation](lab1.md)
 
 * Opening a Database
 * RocksDB Options
@@ -70,3 +70,10 @@ Below diagrams explain why move database from client-server-database architectur
   * Iterate keys in the range
   * Iterate keys in reverse order
   * Iterate keys in the range (reverse order)
+
+## [Lab2 - Snapshot](lab2.md)
+
+* Create a Snapshot
+* Attach ReadOptions to Snapshot
+* Iterate via Snapshot
+
