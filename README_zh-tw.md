@@ -85,4 +85,11 @@ RocksDB是一個函式庫，可用來構建高效key-value服務器的核心模�
 
 ### [Lab3 - Transaction 延伸閱讀](lab3-ext_zh-tw.md)
 
-* 
+* 資料庫併發控制原理
+* 衝突操作
+* 寫讀衝突 Write-Read Conflict
+* 讀寫衝突 Read-Write Conflict
+* 寫寫衝突 Write-Write Conflict
+* Transaction 四大特性： ACID
+* 樂觀鎖 (Optimistic Locking) 與 悲觀鎖 (Pessimistic Locking)
+
