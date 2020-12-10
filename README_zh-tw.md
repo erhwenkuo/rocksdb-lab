@@ -83,7 +83,7 @@ RocksDB是一個函式庫，可用來構建高效key-value服務器的核心模�
 * 調優／內存使用
 * Save Points
 
-### [Lab3 - Transaction 延伸閱讀](lab3-ext_zh-tw.md)
+## [Lab3 - Transaction 延伸閱讀](lab3-ext_zh-tw.md)
 
 * 資料庫併發控制原理
 * 衝突操作
