@@ -1,6 +1,6 @@
 # Lab 3 - RocksDB Transaction
 
-[Chinses version](lab3_zh-tw.md)
+[English version](lab3.md)
 
 <img src="docs/rocksdb.png" width="300px"></img>
 
