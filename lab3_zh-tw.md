@@ -309,7 +309,7 @@ txn.rollbackToSavePoint();
 txn.commit();
 ```
 
-對資料庫併發控制原理有興趣的人可繼續看下一篇:[資料庫併發控制原理](lab3_zh-tw.md)。
+對資料庫併發控制原理有興趣的人可繼續看下一篇:[資料庫併發控制原理](lab3-ext_zh-tw.md)。
 
 返回主目錄 >>  [README](README_zh-tw.md)
 

@@ -6,9 +6,6 @@
 
 ** [Example Source Code](lab3/) **
 
-https://mgleon08.github.io/blog/2017/11/01/optimistic-locking-and-pessimistic-locking/
-
-
 RocksDB supports Transactions when using a `TransactionDB `or `OptimisticTransactionDB`. Transactions have a simple **BEGIN**/**COMMIT**/**ROLLBACK** api and allow applications to modify their data concurrently while letting RocksDB handle the conflict checking. RocksDB supports both pessimistic and optimistic concurrency control.
 
 Note that RocksDB provides Atomicity by default when writing multiple keys via `WriteBatch`. Transactions provide a way to guarantee that a batch of writes will only be written if there are no conflicts. Similar to a WriteBatch, no other threads can see the changes in a transaction until it has been written (committed).

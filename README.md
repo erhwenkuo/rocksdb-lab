@@ -77,3 +77,13 @@ Below diagrams explain why move database from client-server-database architectur
 * Attach ReadOptions to Snapshot
 * Iterate via Snapshot
 
+## [Lab3 - Transaction](lab3.md)
+
+* TransactionDB
+* OptimisticTransactionDB
+* Reading from a Transaction
+* Guarding against Read-Write Conflicts
+* Setting a Snapshot
+* Repeatable Read
+* Tuning / Memory Usage
+* Save Points

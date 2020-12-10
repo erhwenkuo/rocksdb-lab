@@ -51,7 +51,7 @@ RocksDB是一個函式庫，可用來構建高效key-value服務器的核心模�
 * 構建key/value操作的REST API
 * 調用與測試
 
-## [Lab1 - Basic operation#1](lab1.md)
+## [Lab1 - Basic operation](lab1_zh-tw.md)
 
 * 打開一個數據庫
 * RocksDB設定項
@@ -66,8 +66,23 @@ RocksDB是一個函式庫，可用來構建高效key-value服務器的核心模�
   * 逆序迭代所有鍵值對
   * 逆序迭代特定鍵值範圍的鍵值對
 
-## [Lab2 - Snapshot](lab2.md)
+## [Lab2 - Snapshot](lab2_zh-tw.md)
 
 * 創建快照
 * 將ReadOptions繫結到快照
 * 通過快照來迭代鍵值對
+
+## [Lab3 - Transaction](lab3_zh-tw.md)
+
+* TransactionDB
+* OptimisticTransactionDB
+* 從一個事務中讀取鍵值對
+* 讀寫衝突保護
+* 快照與事務交易
+* 在事務交易中重複讀
+* 調優／內存使用
+* Save Points
+
+### [Lab3 - Transaction 延伸閱讀](lab3-ext_zh-tw.md)
+
+* 
