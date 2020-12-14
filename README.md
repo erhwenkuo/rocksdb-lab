@@ -87,3 +87,10 @@ Below diagrams explain why move database from client-server-database architectur
 * Repeatable Read
 * Tuning / Memory Usage
 * Save Points
+
+## [Lab4 - Column Families](lab4.md)
+
+* Column family introduciton
+* Options, ColumnFamilyOptions, DBOptions
+* ColumnFamilyHandle
+* WriteBatch & Column family

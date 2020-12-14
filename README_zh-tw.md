@@ -93,3 +93,9 @@ RocksDB是一個函式庫，可用來構建高效key-value服務器的核心模�
 * Transaction 四大特性： ACID
 * 樂觀鎖 (Optimistic Locking) 與 悲觀鎖 (Pessimistic Locking)
 
+## [Lab4 - Column Families](lab4_zh-tw.md)
+
+* 列族介詔
+* Options, ColumnFamilyOptions, DBOptions
+* ColumnFamilyHandle
+* WriteBatch與列族
