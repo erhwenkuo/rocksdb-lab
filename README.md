@@ -94,3 +94,13 @@ Below diagrams explain why move database from client-server-database architectur
 * Options, ColumnFamilyOptions, DBOptions
 * ColumnFamilyHandle
 * WriteBatch & Column family
+
+## [Lab5 - Benchmark](lab5.md)
+
+* JMH Benchmarks for RocksJava
+  * PutBenchmarks
+  * GetBenchmarks
+  * MultiGetBenchmarks
+  * ComparatorBenchmarks
+
+

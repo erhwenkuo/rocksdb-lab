@@ -99,3 +99,11 @@ RocksDB是一個函式庫，可用來構建高效key-value服務器的核心模�
 * Options, ColumnFamilyOptions, DBOptions
 * ColumnFamilyHandle
 * WriteBatch與列族
+
+## [Lab5 - Benchmark](lab5_zh-tw.md)
+
+* JMH基準測試
+  * PutBenchmarks
+  * GetBenchmarks
+  * MultiGetBenchmarks
+  * ComparatorBenchmarks
