@@ -1,6 +1,6 @@
 # Lab 5 - RocksDB Benchmark
 
-[Chinses version](lab5_zh-tw.md)
+[English version](lab5.md)
 
 <img src="docs/rocksdb.png" width="300px"></img>
 
