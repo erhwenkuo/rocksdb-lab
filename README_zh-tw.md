@@ -107,3 +107,10 @@ RocksDB是一個函式庫，可用來構建高效key-value服務器的核心模�
   * GetBenchmarks
   * MultiGetBenchmarks
   * ComparatorBenchmarks
+
+## [Lab6 - Statistic](lab6_zh-tw.md)
+
+* RocksDB 統計功能
+* 統計功能的開啟與使用
+* 統計功能對RocksDB性能的損耗
+* Ticker與Historgram指標說明

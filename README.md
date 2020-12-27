@@ -103,4 +103,9 @@ Below diagrams explain why move database from client-server-database architectur
   * MultiGetBenchmarks
   * ComparatorBenchmarks
 
+## [Lab6 - Statistic](lab6.md)
 
+* RocksDB Statistics
+* Usage
+* Performance Costs of statistics
+* Ticker and Historgram metrics
