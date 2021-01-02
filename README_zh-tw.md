@@ -114,3 +114,9 @@ RocksDB是一個函式庫，可用來構建高效key-value服務器的核心模�
 * 統計功能的開啟與使用
 * 統計功能對RocksDB性能的損耗
 * Ticker與Historgram指標說明
+
+## [Lab7 - Observability](lab7.md)
+
+* 什麼是`可觀察性`?
+* RocksDB客製化的Collector
+* 整合RocksDB客製化的Collector與Prometheus

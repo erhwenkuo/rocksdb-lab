@@ -109,3 +109,11 @@ Below diagrams explain why move database from client-server-database architectur
 * Usage
 * Performance Costs of statistics
 * Ticker and Historgram metrics
+
+
+## [Lab7 - Observability](lab7.md)
+
+* What is observability?
+* Custom Collector for RocksDB
+* Integrate RocksDB Custom Exporter
+
